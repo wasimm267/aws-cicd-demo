@@ -1,3 +1,3 @@
 #!/bin/bash
-echo "No operation for this hook."
+echo "No operation for this hook"
 
