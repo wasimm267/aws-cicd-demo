@@ -1,10 +1,7 @@
 #!/bin/bash
+set -e
 
-echo "Stopping existing container if running..."
+# Stop the running container (if any)
+echo "Hi"
 
-if [ "$(docker ps -q -f name=flask-app)" ]; then
-    docker stop flask-app
-    docker rm flask-app
-else
-    echo "No running container named flask-app"
-fi
+
